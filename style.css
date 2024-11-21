@@ -1,24 +1,24 @@
-body{
-    background-color: aqua;
+body {
+  background-color: aqua;
 }
-h1{
-    color: whitesmoke;
+h1 {
+  color: whitesmoke;
 }
-@media (min-width:640px) {
-    body{
-        background-color: brown;
-    }
-   h1{
+
+@media (min-width: 640px) {
+  body {
+    background-color: brown;
+  }
+  h1 {
     color: red;
-   }
+  }
 }
 
 @media (min-width: 768px) {
-    body{
-        background-color: green;
-    }
-    h1{
-        color: white;
-    }
-    
+  body {
+    background-color: green;
+  }
+  h1 {
+    color: white;
+  }
 }
